@@ -1,0 +1,20 @@
+{
+  "name": "error-if-not-all-values-are-numbers",
+  "version": "1.0.0",
+  "description": "Function triggers error if argument is not an array entirely of numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "numbers",
+    "type-check",
+    "error"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "dependencies": {
+    "basic-data-handling": "latest",
+    "error-if-not-populated-array": "latest"
+  }
+}
