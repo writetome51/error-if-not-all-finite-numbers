@@ -1,3 +1,4 @@
-Function triggers error if argument is not an array entirely of numbers.
+## errorIfNotAllValuesAreNumbers(values): void
 
-errorIfNotAllValuesAreNumbers(values);
+Triggers error if `values` is not an array entirely of numbers.  
+Each item in `values` must be of type 'number' and must be a finite number.
