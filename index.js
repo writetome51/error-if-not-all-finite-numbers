@@ -1,13 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var errorIfNotNumber_1 = require("basic-data-handling/errorIfNotNumber");
+var eIfNFN_1 = require("error-if-not-finite-number");
 
 
-function errorIfNotAllValuesAreNumbers(values) {
+function errorIfNotAllFiniteNumbers(values) {
 	var i = -1;
 	while (++i < values.length) {
-		errorIfNotNumber_1.errorIfNotNumber(values[i]);
+		eIfNFN_1.errorIfNotFiniteNumber(values[i]);
 	}
 }
-
-exports.errorIfNotAllValuesAreNumbers = errorIfNotAllValuesAreNumbers;
+exports.errorIfNotAllFiniteNumbers = errorIfNotAllFiniteNumbers;

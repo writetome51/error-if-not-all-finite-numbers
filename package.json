@@ -1,19 +1,21 @@
 {
-  "name": "error-if-not-all-values-are-numbers",
-  "version": "1.0.2",
-  "description": "Function triggers error if argument is not an array entirely of numbers",
+  "name": "error-if-not-all-finite-numbers",
+  "version": "1.0.0",
+  "description": "Function triggers error if argument is not an array entirely of finite numbers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "numbers",
+    "finite",
     "type-check",
-    "error"
+    "error",
+    "message"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "basic-data-handling": "~1.0.15"
+    "error-if-not-finite-number": "~1.0.0"
   }
 }
