@@ -1,17 +1,17 @@
-## errorIfNotAllValuesAreNumbers(values): void
+## errorIfNotAllFiniteNumbers(values): void
 
-Triggers error if `values` is not an array entirely of numbers.  
-Each item in `values` must be of type 'number' and must be a finite number.
+Triggers error if `values` is not an array entirely of finite numbers.  
+Each item in `values` must also be of type 'number'.
 
 ### Installation
-`npm i  error-if-not-all-values-are-numbers`
+`npm i  error-if-not-all-finite-numbers`
 
 ### Loading
 ```
 // if using TypeScript:
-import {errorIfNotAllValuesAreNumbers} 
-    from 'error-if-not-all-values-are-numbers';
+import {errorIfNotAllFiniteNumbers} 
+    from 'error-if-not-all-finite-numbers';
 // if using ES5 Javascript:
-var errorIfNotAllValuesAreNumbers = 
-    require('error-if-not-all-values-are-numbers').errorIfNotAllValuesAreNumbers;
+var errorIfNotAllFiniteNumbers = 
+    require('error-if-not-all-finite-numbers').errorIfNotAllFiniteNumbers;
 ```
